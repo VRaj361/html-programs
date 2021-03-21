@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*element selecter*/
+        p{border: 2px solid red;}
+        #this,#that{background-color: aqua;}
+        #th{color: chartreuse;}
+        .this,.that{background-color: burlywood;}
+        .th{color: chocolate;}
+       /* groug selecters*/
+        footer,span{background-color: darkorange;}
+    </style>
+    <!-- you can choose the both format and use it your preference -->
+</head>
+
+<body>
+    <!-- this is the basic of CSS
+    css=casecading style sheet -->
+    <!-- Three type of the css  -->
+    <!-- 1)inline
+        2)internal
+        3)external -->
+        <!--inline is the main after the order of the internal and external  -->
+        <!-- first inline second external thired internal in default formate-->
+        <p>
+            Lorem ipsum dolor sit.
+        </p>
+        <div id="this th"><p>Lorem ipsum dolor sit amet consectetur.</p></div>
+        <div id="this"><p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p></div>
+        <div class="that th"><p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p></div>
+        <div class="this"><p>Lorem ipsum dolor sit amet consectetur.</p>
+                          <span>This is the span</span>
+        </div>
+        <div class="that"><p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p></div>
+        <!-- When we use the id in html with two arguments so it will not acceptable by the css -->
+        <!-- when we use the class in html with two or more arguments so it will acceptable by the css -->
+        <footer>This is the footer</footer>
+        <div><p class="this">Lorem ipsum dolor sit amet consectetur.</p>
+            <span>This is the span</span>
+        </div>
+        <!-- this is use saprate -->
+    </body>
+</html>
